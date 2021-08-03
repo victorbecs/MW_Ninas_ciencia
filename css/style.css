@@ -1,0 +1,265 @@
+	/*Manda llamar una clase*/
+	.parrafo2 {
+	background-color: white;
+	font-family: fantasy;
+	}
+
+	h1{
+			font-family: 'Quicksand', sans-serif;
+		color: white;
+		}
+
+	h4 {
+		color: yellow;
+		}
+	h2 {
+		font-family: 'Quicksand', sans-serif;
+		color: #9400CB;
+		text-align: center;
+		}
+
+		/*Lista de etiquetas o bien una sola etiqueta*/
+		h5,h3{
+			font-family: sans-serif;
+		color:#9400CB;
+		}
+
+/*Manda a llamar un id
+#encabezado {
+	font-family: Helvetica, sans-serif;
+	background-color: #9400CB;
+	padding-top: 20px;
+  	padding-right: 30px;
+  	padding-bottom: 20px;
+ 	padding-left: 80px;
+ 	margin-right: 0px;
+  	margin-left: 0px;
+	}
+	*/
+
+	.tabla{
+		background-color: yellow;
+	}
+
+	.tabla1{
+		font-family: 'Quicksand', sans-serif;
+		color: white;
+		text-align: center;
+		display: flex;
+		width: 100%;
+		height: 50px;
+	}
+
+	.colum1{
+		width: 20%;
+		background-color: #35BBCA;
+		padding-top: 12px;
+		cursor: pointer;
+  	}
+
+	.colum2{
+		width: 20%;
+		background-color: #0191B4;
+		padding-top: 12px;
+		cursor: pointer;
+	
+	}
+	.colum3{
+		width: 20%;
+		background-color: #FFDD00;
+		padding-top: 12px;
+		cursor: pointer;
+	}
+	.colum4{
+		width: 20%;
+		background-color: #D3DD18;
+		padding-top: 12px;
+		cursor: pointer;
+	}
+	.colum5{
+		width: 20%;
+		background-color: #FE7A15;
+		padding-top: 12px;
+		cursor: pointer;
+	}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+	font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+		strong,b{
+		font-size: 10pt;
+		font-family: fantasy;
+		}
+	
+	/*#imagen2 {
+		border: 1px solid black;
+		margin-left: 100px;
+		margin-right: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+		background-color: red;
+		content: ;
+	}
+	*/
+
+.logo{
+	padding: 3px;
+	border: 4px solid black;
+	border-style: dotted;
+	background: #A200CB;
+	/*encycolorpedia.com https://color.adobe.com/es/create/color-wheel  */
+	/*dotted, dashed, solid, double, groove, ridge, inset, outset */
+}
+
+body{
+	font-family: times;
+	color:#333;
+	margin: 0;
+	font-size: 14pt;
+}
+
+.container {
+	width: 90;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #9400CB;
+	padding: 0.5 rem;
+}
+
+.header a{
+	text-decoration: none;
+	color: #670a66;
+}
+
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation ul{
+	margin:0;
+	padding-right: 5px;
+	padding: 0px;
+	list-style: none;
+}
+
+.navigation ul li{
+	display: inline-block;
+}
+
+.navigation ul li a{
+	display:block;
+	padding: 1px 1px;
+	transition: all 0.9s linear;
+}
+
+.navigation ul li a:hover{
+	background: #f2f8b0;
+}
+
+.logof {
+	padding:  5px;
+}
+
+.noticias {
+
+	padding: 10px;
+}
+
+.menu-noticias {
+	font-family: 'Quicksand', sans-serif;
+	color: #9400CB;
+	text-align: center;
+		display: flex;
+		width: 100%;
+		height:320px;
+}
+
+.menu1 {
+	padding: 5px;
+	width: 25%;
+	cursor: pointer;
+}
+.menu2 {
+	padding: 5px;
+	width: 25%;
+	cursor: pointer;
+}
+.menu3 {
+	padding: 5px;
+	width: 25%;
+	cursor: pointer;
+}
+.menu4 {
+	padding: 5px;
+	width: 25%;
+	cursor: pointer;
+}
+
+.cont-libros{
+	border-top: 10px solid #9400CB;
+	margin-bottom: 0px;
+	display:flex;
+	color: gray;
+	background-color: whitesmoke;
+	}
+
+.parrafo {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.footer{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	background-color: #9400CB;
+	padding: 5px 0px;
+	text-align: center;
+	margin-top:5px;
+}
+
+.derechos{
+	width:  55%;
+	text-align:left;
+	margin-left: 10px;
+}
+
+.copy{
+	background-color: #6c0b79;
+	padding:10;
+	margin:0;
+	color:white;
+	text-align: center ;
+	margin-bottom: 0;
+}
+
+.container footer{
+	
+
+}
+
+a{
+	color:  white;
+}
+
+.mapa {
+	padding-left: 100px;
+	width: 35%;
+	text-align: left;
+}
+.division {
+
+	display:flex;
+}
